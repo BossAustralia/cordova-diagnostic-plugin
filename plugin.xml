@@ -48,15 +48,15 @@
         <framework src="CoreLocation.framework" />
 
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
-            <string>This app requires access to your location when the screen is on and the app is displayed.</string>
+            <string>BOSS uses your location to show location of events submitted through the app.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" comment="iOS 11 or greater">
-            <string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>
+            <string>BOSS uses your location to show location of events submitted through the app.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10 or below">
-            <string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>
+            <string>BOSS uses your location to show location of events submitted through the app.</string>
         </config-file>
         <!--END_MODULE LOCATION-->
 
@@ -114,11 +114,11 @@
         <framework src="AVFoundation.framework" />
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>This app requires camera access to function properly.</string>
+            <string>BOSS uses your camera to take pictures to support incident reports and events and to verify your face upon shift check-in.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>This app requires photo library access to function properly.</string>
+            <string>BEnable BOSS to access your camera roll to download and preview incident reports lodged in the app.</string>
         </config-file>
 
         <header-file src="src/ios/Diagnostic_Camera.h" />
@@ -203,7 +203,7 @@
         <framework src="EventKit.framework" />
 
         <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
-            <string>This app requires calendar access to function properly.</string>
+            <string>Enable BOSS to use your calendar to fill and lodge incident reports. </string>
         </config-file>
 
         <header-file src="src/ios/Diagnostic_Calendar.h" />

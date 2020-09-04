@@ -82,7 +82,7 @@
         </config-file>
 	    
 	<config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
-            <string>This app requires bluetooth access to function properly.</string>
+            <string>This app requires constant access to your bluetooth.</string>
         </config-file>
         <!--END_MODULE BLUETOOTH-->
 

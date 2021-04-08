@@ -283,9 +283,6 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-	<edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:requestLegacyExternalStorage="true"/>
-        </edit-config>
 
         <js-module name="Diagnostic_Location" src="www/android/diagnostic.location.js">
             <merges target="cordova.plugins.diagnostic.location" />
